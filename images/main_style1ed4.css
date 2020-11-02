@@ -1,0 +1,41 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,div.paragraph,blockquote,fieldset,input{ margin:0; padding:0; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0; }
+ ul{ list-style:none; }
+ fieldset{ border:0; }
+ a img{ border:0; }
+ .clear{ clear:both; }
+ body { background: #e8f6f8; font-family: Tahoma,arial, sans-serif; font-size:13px; color:#626262; height: 100%; margin:0; padding:0; }
+ a{ color: #ffa127; text-decoration: none; }
+ div.paragraph { line-height: 170%; color: #626262; font-size: 13px; padding: 5px 0px 5px 0px; }
+ p { line-height: 170%; color: #626262; font-size: 13px; padding: 5px 0px 5px 0px; }
+ h1 { font-size:24px; font-weight:bold; color:#272e34; line-height:1.5; padding: 5px 0px 5px 0px; }
+ h2 { font-size:20px; color:#272e34; line-height:1.5; padding: 5px 0px 5px 0px; }
+ #wrapper { width:996px; margin: 0px auto; }
+ .title{ width: 923px; padding: 25px 0px 0px 37px; margin-bottom: 4px; font-size: 30px; color: #ffa127; background: url(sitetitlebgd4b2.jpg?850214) top left no-repeat; }
+ #navigationcontainer{ width: 996px; height: 54px; background: url(navicontainerd4b2.jpg?850214) bottom no-repeat; }
+ #navigation{ position: relative; height: 54px; z-index: 2; float: right; background: url(navigationbgd4b2.jpg?850214) bottom repeat-x; }
+ #navigation_left{ float: left; height: 54px; background: url(navigationleftd4b2.jpg?850214) bottom left no-repeat; }
+ #navigation_right{ float: left; height: 35px; padding: 19px 70px 0px 42px; background: url(navigationrightd4b2.jpg?850214) bottom right no-repeat; }
+ #navigation li{ float: left; height: 35px; z-index: 2; padding: 1px 2px 0px 0px; background: url(../navlid4b2.html?850214) right top no-repeat; }
+ #navigation li a{ position: relative; display: inline-block; height: 25px; color: #1d1d1d; float: left; z-index: 2; padding: 10px 15px 0px 15px; font-size: 13px; text-decoration: none; white-space: nowrap; }
+ #navigation li a:hover{ border-left: 1px solid #a1d6de; border-right: 1px solid #a1d6de; padding: 10px 14px 0px 14px; background: url(hoverbgd4b2.jpg?850214) repeat-x; text-decoration: none; }
+ #navigation li#active a{ border-left: 1px solid #a1d6de; border-right: 1px solid #a1d6de; padding: 10px 14px 0px 14px; background: url(hoverbgd4b2.jpg?850214) repeat-x; }
+ #wsite-menus .wsite-menu-wrap { z-index: 5000; }
+ #wsite-menus .wsite-menu { padding: 0; margin: 0; list-style: none; }
+ #wsite-menus .wsite-menu li { float: left; clear: left; width: 182px; text-align: left; }
+ #wsite-menus .wsite-menu li a { position: relative; display: block; width: 164px; background: #f1f9fa; border-top: none; border-bottom: 1px solid #a1d6de;; border-right: 1px solid #a1d6de; border-left: 1px solid #a1d6de;; text-decoration: none; font-size: 12px; font-weight: normal; line-height:1; padding: 8px 6px 8px 12px; color: #333333; }
+ #wsite-menus .wsite-menu li a:hover { background: #d6eaec; color: #333333; }
+ #content{ width: 996px; clear: both; background: url(contentbgd4b2.jpg?850214) repeat-y left; }
+ #contenttop{ width: 996px; background: url(contenttopd4b2.jpg?850214) top left no-repeat; }
+ #contentbtm{ width: 926px; height:auto !important; min-height:700px; padding: 14px 52px 30px 18px; background: url(contentbtmd4b2.jpg?850214) bottom left no-repeat; }
+ #header{ position: relative; width: 925px; height: 258px; z-index: 1; margin: 0px 0px 30px 0px; }
+ .wsite-header{ background: url(default_headerd4b2.jpg?850214) no-repeat; }
+ #footer{ width: 960px; color: #fff; font-size: 12px; text-align: right; background: url(footerbgd4b2.jpg?850214) repeat-y; margin: 23px 0px 20px 0px; }
+ #footertop{ width: 960px; background: url(footertopd4b2.jpg?850214) top no-repeat; }
+ #footerbtm{ width: 932px; padding: 15px 14px 14px 14px; background: url(footerbtmd4b2.jpg?850214) bottom no-repeat; }
+ #footer a{ color: #cc7402; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
